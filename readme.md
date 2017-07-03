@@ -1,6 +1,6 @@
 # Antshares Core
 
-The https://github.com/AntShares/AntSharesCore repository is a container for the Antshares Wallet application ( UI ) as well as the Daemon, which can be used as a wallet and runs an RPC service.
+This repository is a container for the Antshares Wallet application ( UI ) as well as the Daemon, which can be used as a wallet and runs an RPC service.
 
 This particular fork of Antshares Core is for getting the Daemon running on OSX. This fork also aims to add basic 'Claim Antshares Coins' to the Daemon RPC Service, which is currently missing.
 
@@ -8,9 +8,18 @@ This particular fork of Antshares Core is for getting the Daemon running on OSX.
 
 This does not currently work on OSX.  There are a lot of issues with compiling the mono framework to get it to work.
 
+
 ## Antshares Daemon
 
-The following instructions can get you building the project on OSX and running it.
+The following instructions can get you building the project on your preferred platform and running it.
+
+
+# Windows Instructions
+
+Open the project with Visual studio, and run it!
+
+
+# OSX Instructions
 
 ### Install dependencies
 To Run the daemon on OSX, you will need to install LevelDB.  If you are adventurous, you can build from source.  Otherwise, there is a package for Homebrew:
@@ -73,3 +82,10 @@ dotnet AntsharesDaemon.dll /rpc
 ```
 
 That should do it.  You can interact with the Daemon via the `>ant` prompt
+
+
+
+# Linux Instructions
+
+Insert Linux instructions here!
+
