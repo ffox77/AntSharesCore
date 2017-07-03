@@ -10,7 +10,13 @@ This does not currently work on OSX.  There are a lot of issues with compiling t
 
 ## Antshares Daemon
 
-This can currently be run on OSX by installing the .NET core framework from microsoft.  You can download that here:
+To Run the daemon on OSX, you will need to install LevelDB.  If you are adventurous, you can build from source.  Otherwise, there is a package for Homebrew:
+
+```
+brew install leveldb
+```
+
+You will also need to install .NET core framework from microsoft.  You can download that here:
 
 https://www.microsoft.com/net/core#macos
 
